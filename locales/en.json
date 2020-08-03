@@ -1,0 +1,14 @@
+{
+     "menu" : {
+          "intro": "Présentation",
+          "formation": "Formations",
+          "exp": "Expériences",
+          "skill": "Compétences",
+          "contact": "Contact"
+     },
+     "app" : {
+          "value": "New",
+          "onclick": "CreateNewDoc()"
+     }
+}
+
