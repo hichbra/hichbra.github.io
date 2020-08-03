@@ -2,109 +2,993 @@
 <html>
 
 <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Hicham Brahimi</title>
 
-    <title>Hicham Brahimi</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
+     <link href="css/animate.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+     <div id="wrapper">
+          <div class="menu">
+               <nav class="navbar-default navbar-static-side" role="navigation">
+                    <div class="sidebar-collapse">
+                         <ul class="nav metismenu" id="side-menu">
+                              <li class="nav-header">
+                                   <div class="dropdown profile-element">
+                                        <a href="#top">image</a>
 
-<div id="wrapper">
-
-    <nav class="navbar-default navbar-static-side" role="navigation">
-        <div class="sidebar-collapse">
-            <ul class="nav metismenu" id="side-menu">
-                <li class="nav-header">
-                    <div class="dropdown profile-element">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David Williams</strong>
-                             </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span> </span> </a>
-                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="#">Logout</a></li>
-                            </ul>
+                                   </div>
+                                   <div class="logo-element">
+                                        <a href="#top">HB</a>
+                                   </div>
+                              </li>
+                              <li class="active">
+                                   <a href="#intro"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.intro"></span></span></a>
+                              </li>
+                              <li class="">
+                                   <a href="#formation"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.formation"></span></span></a>
+                              </li>
+                              <li class="">
+                                   <a href="#exp"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.exp"></span></span></a>
+                              </li>
+                              <li class="">
+                                   <a href="#skill"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.skill"></span></span></a>
+                              </li>
+                              <li class="">
+                                   <a href="#contact"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.contact"></span></span></a>
+                              </li>
+                         </ul>
                     </div>
-                    <div class="logo-element">
-                        IN+
+               </nav>
+          </div>
+     </div>
+     <div id="page-wrapper" class="gray-bg">
+          <div class="wrapper wrapper-content">
+               <div class="row border-bottom">
+                    <div class="col-xs-10">
+                         <div class="navbar-header" style="margin-top:-30px;">
+                              <a id="top" class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i> </a>
+                         </div>
                     </div>
-                </li>
-                <li class="active">
-                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Main view</span></a>
-                </li>
-                <li>
-                    <a href="minor.html"><i class="fa fa-th-large"></i> <span class="nav-label">Minor view</span> </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
-    <div id="page-wrapper" class="gray-bg">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-                    <form role="search" class="navbar-form-custom" method="post" action="#">
-                        <div class="form-group">
-                            <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
-                        </div>
-                    </form>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-sign-out"></i> Log out
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-        </div>
-        <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center m-t-lg">
-                        <h1>
-                            This is a test
-                        </h1>
-                        <small>
-                            application skeleton
-                        </small>
+                    <div class="col-xs-2" style="margin-top:-20px;">
+                         <div class="row">
+                              <div class="col-xs-4"><a class="set_fr"><img src="img/France.png"></a></div>
+                              <div class="col-xs-4"><a class="set_en"><img src="img/Anglais.png"></a></div>
+                              <div class="col-xs-4"><a class="set_jp"><img src="img/Japan.png"></a></div>
+                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="pull-right">
-                10GB of <strong>250GB</strong> Free.
-            </div>
-            <div>
-                <strong>Copyright</strong> Example Company &copy; 2014-2017
-            </div>
-        </div>
+               </div>
+               <div id="intro" class="ibox animated fadeInRight">
+                    <div class="ibox-title text-center animated fadeInRight">
+                         <h1>Présentation</h1>
+                    </div>
+                    <div class="ibox-content animated fadeInRight">
+                         <div class="row">
+                              <div class="col-sm-4">
+                                   <img alt="moi" style="width: 100%;height: auto;" src="img/a.jpg" />
+                              </div>
+                              <div class="col-sm-8">
+                                   <div class="text-center">
+                                   <h2>Hicham BRAHIMI</h2>
+                                   <h3>Résidence principale : Le Havre, France</h3>
+                                   <h3>Résidence actuelle : Le Havre, France</h3>
+                                   <h3>26 ans</h3>
+                                   <h3>Permis B + Véhicule</h3>
+                                   <h3><a href="#contact">Contact</a></h3>
+                                   </div>
+                                   <br />
+                                   <br />
+                                   <p>
+                                        Développeur professionnel depuis maintenant plus de 3 ans, ma particularité est d'être très <strong>polyvalent</strong>.<br />
+                                        Que ce soit de l'informatique ou de l'embarquée, <br />
+                                        Que ce soit du développement logiciel ou de site web, <br />
+                                        Que ce soit du front-end ou du back-end,<br />
+                                        Je n'ai aucun problème à m'adapter pour répondre aux attentes.
+                                        <br /><br />
+                                        Mes premières années passées au lycée furent dans le domaine de l'électrotechnique,
+                                        mais j'ai rapidement dérivé vers ma passion première : l'Informatique.
+                                        Ma formation a débuté par un apprentissage général de l'informatique, avant de se spécialiser
+                                        dans l'<strong>Intelligence Artificielle</strong>.<br />
+                                        <strong>Touche à tout dans l'âme, ne vous fiez pas simplement à mes compétences actuelles,
+                                        j'aime presque autant faire mon travail qu'apprendre à le faire.</strong>
+                                        <br /><br />
+                                        Mes centres d'intérêt sont assez simples. J'ai d'une part une grande passion pour tout ce qui touche
+                                        à la culture populaire : bandes dessinées et jeux vidéos entre autres, mais je m'intéresse également
+                                        aux jeux de cartes tels que Magic the gathering et les jeux de plateaux.
+                                        Enfin, j'aime également le sport et notamment le Baseball que je pratique maintenant depuis
+                                        plus de 3 ans<br /><br />
 
-    </div>
-</div>
+                                        Mes attentes professionnel sont simples, un travail capable de me rendre <strong>heureux</strong> par le simple fait d'aller au boulot.
 
-<!-- Mainly scripts -->
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-<!-- Custom and plugin javascript -->
-<script src="js/inspinia.js"></script>
-<script src="js/plugins/pace/pace.min.js"></script>
+                                   </p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
 
 
+               <div id="formation" class="ibox animated fadeInRight">
+                    <div class="ibox-title text-center animated fadeInRight">
+                         <h1>Formations</h1>
+                    </div>
+                    <div class="ibox-content animated fadeInRight">
+                         <div id="vertical-timeline" class="vertical-container dark-timeline center-orientation">
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon blue-bg">
+                                        <i class="fa fa-file-text"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Master 2 — MATIS</h1>
+                                        <h2>Mathématiques et Informatique des Systèmes Complexes et Distribués</h2>
+                                        <p>
+                                             Université du Havre
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>Normandie, FRANCE</b> <br />
+                                             <small>2017</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon blue-bg">
+                                        <i class="fa fa-file-text"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Master 1 Informatique <br /> Intelligence Artificielle</h1>
+                                        <h2>Parcours – Agent-based Computing</h2>
+                                        <p>
+                                             Université Paris Descartes
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>Île-de-France, FRANCE</b> <br />
+                                             <small>2015</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon navy-bg">
+                                        <i class="fa fa-file-text"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Licence Informatique</h1>
+                                        <p>
+                                             Université du Havre
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>Normandie, FRANCE</b> <br />
+                                             <small>2014</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon lazur-bg">
+                                        <i class="fa fa-file-text"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>DUT informatique</h1>
+                                        <p>
+                                             Institut Universitaire de Technologie du Havre
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>Normandie, FRANCE</b> <br />
+                                             <small>2013</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon yellow-bg">
+                                        <i class="fa fa-file-text"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Baccalauréat STI</h1>
+                                        <h2>Science et Technique Industrielle</h2>
+                                        <p>
+                                             Lycée Robert Schuman
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>Normandie, FRANCE</b> <br />
+                                             <small>2011</small>
+                                        </span>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div id="exp" class="ibox animated fadeInRight">
+                    <div class="ibox-title text-center animated fadeInRight">
+                         <h1>Expériences</h1>
+                    </div>
+                    <div class="ibox-content animated fadeInRight">
+                         <div id="vertical-timeline" class="vertical-container dark-timeline center-orientation">
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon navy-bg">
+                                        <i class="fa fa-briefcase"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Ingénieur d'études</h1>
+                                        <h2>Université du Havre — Laboratoire LITIS</h2>
+                                        <p>Chercheur à l'université durant 2 ans et 11 mois, je fus en charge de différents projets soumis à l'équipe RIIC (Réseaux d’interactions et Intelligence Collective) du LITIS
+                                             (Laboratoire d'Informatique, du Traitement de l'Information et des Systèmes).
+                                             <br />
+                                             Ces projets furent de nature très variés, allant de la librairie JAVA à l'instrumentalisation de biocapteur marin.
+                                             <hr />
+                                             <h3 style="margin-top: -10px;margin-bottom: -10px;">
+                                                  <center>Travaux effectués</center>
+                                             </h3>
+                                             <hr />
+                                             <ul>
+                                                  <div class="row">
+                                                       <div class="col-sm-6">
+                                                            <li>
+                                                                 <h3 style="color:#5cb85c;">Projet Astreos</h3>
+                                                            </li>
+                                                       </div>
+                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal">En savoir plus</button></div>
+                                                       <div class="modal inmodal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                 <div class="modal-content animated fadeInDown">
+                                                                      <div class="modal-header">
+                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+                                                                           <h4 class="modal-title">Projet ASTREOS</h4>
+                                                                           <small class="font-bold">Projet valorisé par le programme des investissements d’avenir (PIA3)</small>
+                                                                      </div>
+                                                                      <div class="modal-body">
+                                                                           <div class="row">
+                                                                                <div class="col-sm-12">
+                                                                                     <img alt="GraphStream application" style="width: 100%;height: auto;" src="img/astreos.jpg" />
+                                                                                </div>
+                                                                           </div>
+                                                                           <div class="row">
+                                                                                <div class="col-sm-12">
+                                                                                     <p>Malgré l'arsenal législatif adopté progressivement par la communauté européenne,
+                                                                                          <strong>la qualité des milieux aquatiques</strong> ne parvient pas à atteindre les critères fixés par la réglementation,
+                                                                                          en particulier sur la façade française de la Manche.</p>
+                                                                                     <p>
+                                                                                          Les moules marines Mytilus spp. sont des organismes <strong>sessiles et filtreurs</strong>, colonisant les zones
+                                                                                          intertidales littorales et estuariennes des différents continents,
+                                                                                          incluant les régions fortement anthropisées, où elles sont particulièrement<strong> exposées aux contaminants de toutes natures</strong> ;
+                                                                                          ces organismes sont de ce fait communément utilisés comme espèce sentinelle dans les programmes de <strong>biosurveillance </strong>en
+                                                                                          écotoxicologie. L'utilisation de la<strong> mesure des mouvements valvaires</strong>, communément appelée valvométrie en biosurveillance
+                                                                                          active a été jusqu'à maintenant limitée par l'absence de dispositifs de terrain permettant l’enregistrement automatisé
+                                                                                          de séquences de comportement et par le déficit subséquent en connaissances.
+                                                                                          Le développement rapide de l’électronique et de l’informatique a ouvert de nouvelles perspectives
+                                                                                          et permet l'émergence du biologging comme approche permettant la mesure quantitative du
+                                                                                          comportement sans intervention directe de l'expérimentateur.
+                                                                                     </p>
+                                                                                     <p>
+                                                                                          Le programme ASTREOS est destiné à tester l’applicabilité d’une stratégie de biosurveillance de la Baie de Seine s’appuyant
+                                                                                          sur les<strong> mesures in situ de l’activité valvaire</strong> de moules de l’espèce Mytilus edulis. Il s'agit d'un très gros projet
+                                                                                          ayant réussi plusieurs levées de fonds dont j'ai eu le privilège d'être le premier à travailler sur la partie valvométrie,
+                                                                                          et je ne serai sans doute pas le dernier.
+                                                                                     </p>
+                                                                                     <p>
+                                                                                          Ma part de l'objectif sur ce projet a été atteinte, à savoir la réalisation d'un<strong> prototype terrain</strong>,
+                                                                                          capable de récolter des données durant plusieurs semaines. J'ai travaillé notamment sur les 3 composantes principales de ce projet :
+                                                                                          L'instrumentalisation de moules à l'aide de capteurs à effet Hall, la fabrication du prototype terrain à l'aide de nano-ordinateurs
+                                                                                          et de microcontrôleurs et enfin, la réalisation de l'interface web permettant l'accès et l'analyse des données, ainsi que la
+                                                                                          communication avec le prototype.
+                                                                                     </p>
+                                                                                </div>
+
+                                                                           </div>
+                                                                      </div>
+
+                                                                      <div class="modal-footer">
+                                                                           <button type="button" class="btn btn-white" data-dismiss="modal">Fermer</button>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+
+                                                  <div class="row">
+                                                       <div class="col-sm-6">
+                                                            <li>
+                                                                 <h3 style="color:#337ab7;">Projet Graphstream 2.0</h3>
+                                                            </li>
+                                                       </div>
+                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-success" data-toggle="modal" data-target="#myModal1">En savoir plus</button></div>
+                                                       <div class="modal inmodal fade" id="myModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                 <div class="modal-content animated fadeInDown">
+                                                                      <div class="modal-header">
+                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+                                                                           <h4 class="modal-title">Graphstream 2.0</h4>
+                                                                           <small class="font-bold"><a href="https://github.com/graphstream/"> Github officiel du projet </a></small>
+                                                                      </div>
+                                                                      <div class="modal-body">
+                                                                           <div class="row">
+                                                                                <div class="col-sm-12">
+                                                                                     <img alt="prototype" style="width: 100%;height: auto;" src="img/gs-app.png" />
+                                                                                </div>
+                                                                           </div>
+                                                                           <div class="row">
+                                                                                <div class="col-sm-12">
+                                                                                     <p>GraphStream est une <strong>librairie Java de gestion de graphes </strong>qui se concentre sur les aspects dynamiques des graphes.
+                                                                                          Elle se concentre principalement sur la modélisation de réseaux d'interaction dynamiques de tailles diverses.
+                                                                                          <!--GraphStream is a graph handling Java library that focuses on the dynamics aspects of graphs. Its main focus is on the modeling of dynamic interaction networks of various sizes.-->
+                                                                                          La transition vers la version 2.0 a permis à gs-core, le module central de la librairie,
+                                                                                          de s’émanciper de différentes technologies pour devenir<strong> une librairie générique</strong>.
+                                                                                          Ces changements ont notamment permis à GraphStream de s’équiper d’un tout nouveau système de visualisation multi-technologique
+                                                                                          offrant à l’utilisateur le choix de son interface graphique.</p>
+                                                                                     <p>
+                                                                                          Ces interfaces, commençant par la dénomination gs-ui, sont organisées en projets distincts qui ont en commun
+                                                                                          l’utilisation des nouvelles propriétés génériques de gs-core. La version 2 de GraphStream regroupe déjà à ce jour
+                                                                                          3 projets d’UI répondant au nom de<strong> gs-ui-swing, gs-ui-javafx ainsi qu'une toute nouvelle interface gs-ui-android</strong>,
+                                                                                          le suffixe des noms décrivant les technologies utilisées. Côté algorithmique,<strong> l'abandon des itérateurs pour les streams</strong>
+                                                                                          ont permis d'augmenter la vitesse d’exécution des algorithmes sur les machines les plus puissantes, en améliorant
+                                                                                          la gestion du multithreading par la parallélisation des streams.</p>
+                                                                                </div>
+
+                                                                           </div>
+                                                                      </div>
+
+                                                                      <div class="modal-footer">
+                                                                           <button type="button" class="btn btn-white" data-dismiss="modal">Fermer</button>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-sm-6">
+                                                            <li>
+                                                                 <h3 style="color:#5cb85c;">Projet Firediag</h3>
+                                                            </li>
+                                                       </div>
+                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal2">En savoir plus</button></div>
+                                                       <div class="modal inmodal fade" id="myModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                 <div class="modal-content animated fadeInDown">
+                                                                      <div class="modal-header">
+                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+                                                                           <h4 class="modal-title">Projet Firediag</h4>
+                                                                           <small class="font-bold">L'écosystème IoT au service des héros</small>
+                                                                      </div>
+                                                                      <div class="modal-body">
+                                                                           <div class="row">
+                                                                                <div class="col-sm-12">
+                                                                                     <img alt="firediag application" style="width: 100%;height: auto;" src="img/fire.png" />
+                                                                                </div>
+                                                                           </div>
+                                                                           <div class="row">
+                                                                                <div class="col-sm-12">
+                                                                                     <p>
+                                                                                          En 2016, les 246.800 sapeurs-pompiers français ont effectué plus de 4.542.400
+                                                                                          interventions, c'est-à-dire près de 12.445 interventions par jour.
+                                                                                          Chaque année, une dizaine d’entre eux périssent tragiquement au cours de leurs missions.
+                                                                                          Flammes, fumée, torrents d’eau, ces hommes et femmes se battent chaque jour afin de
+                                                                                          sauver d’autres personnes en dépit d’un environnement extrêmement hostile. C’est dans le
+                                                                                          but de réduire les risques au minimum que les sapeurs-pompiers recherchent en
+                                                                                          permanence de <strong>nouvelles solutions technologiques</strong>.
+                                                                                          Les pompiers étant des acteurs primordiaux de la société, développeurs, chercheurs et
+                                                                                          fabricants s’empresse de comprendre et de créer le pompier de demain. Ainsi, nous nous
+                                                                                          sommes également intéressés à ce problème et plus particulièrement à la<strong> gestion et au
+                                                                                               traitement de tous ces nouveaux outils </strong>qui apparaissent afin d’aider les pompiers dans leur
+                                                                                          tâche.
+                                                                                     </p>
+                                                                                     <p>
+                                                                                          Nous avons donc travaillé sur un tableau de bord dans le but<strong> d’observer, enregistrer et
+                                                                                               analyser </strong>les données issues de différents types de capteurs. L'objectif était de parvenir
+                                                                                          à regrouper et visualiser à l'aide du protocole de <strong>communication MQTT</strong>
+                                                                                          les valeurs des capteurs en direct.
+                                                                                          Ce projet a servi également de base à l'interface du projet Astreos.
+                                                                                     </p>
+                                                                                </div>
+
+                                                                           </div>
+                                                                      </div>
+
+                                                                      <div class="modal-footer">
+                                                                           <button type="button" class="btn btn-white" data-dismiss="modal">Fermer</button>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </ul>
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>3 ans</b> <br />
+                                             <small>2017 - 2020</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon blue-bg">
+                                        <i class="fa fa-pencil-square"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Ingénieur — Stage de Master 2</h1>
+                                        <h2>Université du Havre — Laboratoire LITIS</h2>
+                                        <p>Un projet étudiant au cours de mon Master 2 m'a amené à concevoir une prothèse de main mécanique, sur laquelle nous avions
+                                             effectué des modifications, notamment l’ajout d’électronique embarquée afin que l’utilisateur soit capable de
+                                             contrôler ses doigts.
+
+                                             Ce stage est la continuité de ce projet, avec pour objectif de comprendre les signaux émis par le cerveau au cours d’un mouvement.
+                                             <hr />
+                                             <h3 style="margin-top: -10px;margin-bottom: -10px;">
+                                                  <center>Travaux effectués</center>
+                                             </h3>
+                                             <hr />
+                                             <ul>
+                                                  <li>Développement et amélioration d'une prothèse mécanique</li>
+                                                  <li>Interprétation de Signaux EEG par Réseau de Neurones</li>
+                                             </ul>
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>4 Mois</b> <br />
+                                             <small>2017</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon navy-bg">
+                                        <i class="fa fa-briefcase"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Analyste programmeur JAVA</h1>
+                                        <h2>Exel Connect</h2>
+                                        <p>
+                                             Développement d'un logiciel de gestion d'entrepôts.
+                                             <hr />
+                                             <h3 style="margin-top: -10px;margin-bottom: -10px;">
+                                                  <center>Travaux effectués</center>
+                                             </h3>
+                                             <hr />
+                                             <ul>
+                                                  <li>Conception de l'architecture logicielle</li>
+                                                  <li>Aide à la conception et à la mise en place de la base de données</li>
+                                                  <li>Développement du serveur et de la liaison client-serveur</li>
+                                                  <li>Développement d'une partie du client</li>
+                                                  <li>Rédaction de documentation</li>
+                                             </ul>
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>4 Mois</b> <br />
+                                             <small>2014</small>
+                                        </span>
+                                   </div>
+                              </div>
+
+                              <div class="vertical-timeline-block">
+                                   <div class="vertical-timeline-icon blue-bg">
+                                        <i class="fa fa-pencil-square"></i>
+                                   </div>
+
+                                   <div class="vertical-timeline-content">
+                                        <h1>Développeur Web — Stage de DUT</h1>
+                                        <h2>Société de Maintenance Portuaire Havraise</h2>
+                                        <p>
+                                             Développement d'une application web de génération automatique de devis et d'un site web.
+                                             <hr />
+                                             <h3 style="margin-top: -10px;margin-bottom: -10px;">
+                                                  <center>Travaux effectués</center>
+                                             </h3>
+                                             <hr />
+                                             <ul>
+                                                  <li>Développement d'un site web PHP/HTML</li>
+                                                  <li>Développement d'une application de génération automatique de Devis en PHP</li>
+                                             </ul>
+                                        </p>
+
+                                        <span class="vertical-date">
+                                             <b>10 Semaines</b> <br />
+                                             <small>2013</small>
+                                        </span>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div id="skill" class="ibox animated fadeInRight">
+                    <div class="ibox-title text-center animated fadeInRight">
+                         <h1>Compétences</h1>
+                    </div>
+                    <div class="ibox-title text-center animated fadeInRight">
+                         <div class="row">
+                              <div class="col-sm-6">
+                                   <h2>Outils</h2>
+                              </div>
+                              <div class="col-sm-6 hidden-xs">
+                                   <h2>Maîtrise</h2>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="ibox-content text-center animated fadeInRight">
+                         <div class="row">
+                              <div class="col-sm-6">
+                                   <div class="tabs-container">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                             <li class="active"><a class="nav-link" data-toggle="tab" href="#tab-1">Logiciel</a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-2">Web</a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-3">Mobile</a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-4">IOT</a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-5">IA</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                             <div role="tabpanel" id="tab-1" class="tab-pane active">
+                                                  <div class="panel-body">
+                                                       <div class="row">
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-primary">
+                                                                      <div class="panel-heading">
+                                                                           Système
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Windows</h3>
+                                                                           <hr />
+                                                                           <h3>UNIX</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-success">
+                                                                      <div class="panel-heading">
+                                                                           Langage
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>JAVA</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div role="tabpanel" id="tab-2" class="tab-pane">
+                                                  <div class="panel-body">
+                                                       <div class="row">
+                                                            <div class="col-sm-4">
+                                                                 <div class="panel panel-primary">
+                                                                      <div class="panel-heading">
+                                                                           Système
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Apache</h3>
+                                                                           <hr />
+                                                                           <h3>Tomcat</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                 <div class="panel panel-success">
+                                                                      <div class="panel-heading">
+                                                                           Langage
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>PHP</h3>
+                                                                           <hr />
+                                                                           <h3>J2EE</h3>
+                                                                           <hr />
+                                                                           <h3>HTML5</h3>
+                                                                           <hr />
+                                                                           <h3>CSS</h3>
+                                                                           <hr />
+                                                                           <h3>JavaScript / JQuery</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                 <div class="panel panel-info">
+                                                                      <div class="panel-heading">
+                                                                           SGBD
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>MySQL</h3>
+                                                                           <hr />
+                                                                           <h3>PostgreSQL</h3>
+                                                                           <hr />
+                                                                           <h3>SQL Server</h3>
+                                                                           <hr />
+                                                                           <h3>Divers NoSQL</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div role="tabpanel" id="tab-3" class="tab-pane">
+                                                  <div class="panel-body">
+                                                       <div class="row">
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-primary">
+                                                                      <div class="panel-heading">
+                                                                           Système
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Android</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-success">
+                                                                      <div class="panel-heading">
+                                                                           Langage
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>JAVA Android</h3>
+                                                                           <hr />
+                                                                           <h3>C# Unity</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div role="tabpanel" id="tab-4" class="tab-pane">
+                                                  <div class="panel-body">
+                                                       <div class="row">
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-primary">
+                                                                      <div class="panel-heading">
+                                                                           Système
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Arduino</h3>
+                                                                           <hr />
+                                                                           <h3>RaspberryPI</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-success">
+                                                                      <div class="panel-heading">
+                                                                           Langage
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Arduino</h3>
+                                                                           <hr />
+                                                                           <h3>C</h3>
+                                                                           <hr />
+                                                                           <h3>Python</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div role="tabpanel" id="tab-5" class="tab-pane">
+                                                  <div class="panel-body">
+                                                       <div class="row">
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-warning">
+                                                                      <div class="panel-heading">
+                                                                           Domaines
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Analyse</h3>
+                                                                           <hr />
+                                                                           <h3>Supervisé</h3>
+                                                                           <hr />
+                                                                           <h3>Non Supervisé</h3>
+                                                                           <hr />
+                                                                           <h3>Renforcement</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                 <div class="panel panel-success">
+                                                                      <div class="panel-heading">
+                                                                           Langage
+                                                                      </div>
+                                                                      <div class="panel-body">
+                                                                           <h3>Python</h3>
+                                                                           <hr />
+                                                                           <h3>R</h3>
+                                                                      </div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+
+
+                                   </div>
+                              </div>
+                              <div class="ibox-title text-center animated fadeInRight hidden-sm hidden-md hidden-lg hidden-xl">
+                                   <div class="row">
+                                        <div class="col-sm-6">
+                                             <h2>Maîtrise</h2>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-sm-6">
+                                   <div class="tabs-container">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                             <li class="active"><a class="nav-link" data-toggle="tab" href="#tab2-1">Développement</a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab2-2">Global</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                             <div role="tabpanel" id="tab2-1" class="tab-pane active">
+                                                  <div class="panel-body">
+                                                       <canvas id="myskills"></canvas>
+                                                  </div>
+                                             </div>
+                                             <div role="tabpanel" id="tab2-2" class="tab-pane">
+                                                  <div class="panel-body">
+                                                       <canvas id="myskills2"></canvas>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+
+                         </div>
+                    </div>
+               </div>
+
+
+
+               <div id="contact" class="ibox animated fadeInRight">
+                    <div class="ibox-title text-center animated fadeInRight">
+                         <h1>Contact</h1>
+                    </div>
+                    <div class="ibox-content text-center animated fadeInRight">
+                         <div class="row">
+                              <div class="col-md-12 mb-md-0 mb-5">
+                                   <form id="form" action="https://formspree.io/xwkryvja" method="POST">
+                                        <div class="row">
+                                             <div class="col-md-6">
+                                                  <div class="md-form mb-0 form-group">
+                                                       <label class="control-label" for="name" class="">Nom</label>
+                                                       <input type="text" id="name" name="name" class="form-control">
+                                                  </div>
+                                             </div>
+                                             <div class="col-md-6">
+                                                  <div class="md-form mb-0 form-group">
+                                                       <label class="control-label" for="email" class="">Email</label>
+                                                       <input type="text" id="email" name="email" class="form-control">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="row">
+                                             <div class="col-md-12">
+                                                  <div class="md-form mb-0 form-group">
+                                                       <label class="control-label" for="subject" class="">Sujet</label>
+                                                       <input type="text" id="subject" name="subject" class="form-control">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="row">
+
+                                             <div class="col-md-12">
+                                                  <div class="md-form form-group">
+                                                       <label class="control-label" for="message">Votre Message</label>
+                                                       <textarea type="text" id="message" name="message" rows="12" class="form-control md-textarea"></textarea>
+                                                  </div>
+
+                                             </div>
+                                        </div>
+                                        <div class="text-center text-md-left">
+                                             <button class="btn btn-primary" id="formButton">Envoyer</button>
+                                        </div>
+
+                                        <div class="status" id="formStatus"></div>
+                                   </form>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="footer">
+                    <div class="pull-right">
+                         <strong>2020-2025</strong> Le Havre, France
+                    </div>
+                    <div>
+                         <strong>Copyright</strong> Hicham Brahimi
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!--Grid row-->
+     <!-- Mainly scripts -->
+     <script src="js/jquery-3.1.1.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+     <!-- Custom and plugin javascript -->
+     <script src="js/inspinia.js"></script>
+     <script src="js/plugins/pace/pace.min.js"></script>
+     <script src="js/plugins/chartJs/Chart.min.js"></script>
+     <script src="js/plugins/i18next/i18next.min.js"></script>
+
+     <script>
+          var topMenu = $("#side-menu"),
+               topMenuHeight = topMenu.outerHeight() + 15,
+               // All list items
+               menuItems = topMenu.find("a"),
+               // Anchors corresponding to menu items
+               scrollItems = menuItems.map(function() {
+                    var item = $($(this).attr("href"));
+                    if (item.length) {
+                         return item;
+                    }
+               });
+
+          $(window).scroll(function() {
+               // Get container scroll position
+               var fromTop = $(this).scrollTop() + topMenuHeight;
+               // Get id of current scroll item
+               var cur = scrollItems.map(function() {
+                    if ($(this).offset().top < fromTop)
+                         return this;
+               });
+
+               // Get the id of the current element
+               cur = cur[cur.length - 1];
+               var id = cur && cur.length ? cur[0].id : "";
+
+               // Set/remove active class
+               menuItems.parent().removeClass("active").end().filter("[href='#" + id + "']").parent().addClass("active");
+          });
+
+          var radarData = {
+               labels: ["Mobile", "Web", "Logiciel", "IA", "IOT"],
+               datasets: [{
+                         label: "My First dataset",
+                         backgroundColor: "rgba(26,179,55,0.2)",
+                         borderColor: "rgba(26,179,55,1)",
+                         data: [80, 90, 95, 50, 70]
+                    },
+                    {
+                         backgroundColor: "rgba(220,220,220,0.2)",
+                         borderColor: "rgba(220,220,220,1)",
+                         data: [0, 0, 0, 0, 0, 0, 0]
+                    }
+               ]
+          };
+
+
+
+          var radarOptions = {
+               responsive: true,
+               legend: {
+                    display: false
+               }
+          };
+
+          var ctx5 = document.getElementById("myskills").getContext("2d");
+          new Chart(ctx5, {
+               type: 'radar',
+               data: radarData,
+               options: radarOptions
+          });
+
+          var radarData2 = {
+               labels: ["Gestion de Projet", "Informatique", "Électronique", "Mécanique"],
+               datasets: [{
+                         label: "My First dataset",
+                         backgroundColor: "rgba(26,55,179,0.2)",
+                         borderColor: "rgba(26,55,179,1)",
+                         data: [80, 98, 60, 40]
+                    },
+                    {
+                         backgroundColor: "rgba(220,220,220,0.2)",
+                         borderColor: "rgba(220,220,220,1)",
+                         data: [0, 0, 0, 0, 0, 0, 0]
+                    }
+               ]
+          };
+
+          var ctx5_2 = document.getElementById("myskills2").getContext("2d");
+          new Chart(ctx5_2, {
+               type: 'radar',
+               data: radarData2,
+               options: radarOptions
+          });
+
+
+          // Contact
+          window.addEventListener("DOMContentLoaded", function() {
+
+               // get the form elements defined in your form HTML above
+
+               var form = document.getElementById("form");
+               var button = document.getElementById("formButton");
+               var status = document.getElementById("formStatus");
+
+               // Success and Error functions for after the form is submitted
+
+               function success() {
+                    form.reset();
+                    button.style = "display: none ";
+                    status.innerHTML = "Thanks!";
+               }
+
+               function error() {
+                    status.innerHTML = "Oops! There was a problem.";
+               }
+
+               // handle the form submission event
+
+               form.addEventListener("submit", function(ev) {
+                    ev.preventDefault();
+                    var data = new FormData(form);
+                    ajax(form.method, form.action, data, success, error);
+               });
+          });
+
+          // helper function for sending an AJAX request
+
+          function ajax(method, url, data, success, error) {
+               var xhr = new XMLHttpRequest();
+               xhr.open(method, url);
+               xhr.setRequestHeader("Accept", "application/json");
+               xhr.onreadystatechange = function() {
+                    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                    if (xhr.status === 200) {
+                         success(xhr.response, xhr.responseType);
+                    } else {
+                         error(xhr.status, xhr.response, xhr.responseType);
+                    }
+               };
+               xhr.send(data);
+          }
+
+          // Multilanguage
+
+          $.i18n.init({
+               resGetPath: 'locales/__lng__.json',
+               load: 'unspecific',
+               fallbackLng: false,
+               lng: 'fr'
+          }, function (t){
+               $('.i18_links').i18n();
+          });
+
+          $('.set_en').on('click', function() {
+               i18n.setLng('en', function() {
+                    $('.i18_links').i18n();
+               });
+          });
+
+          $('.set_fr').on('click', function(){
+               i18n.setLng('fr', function(){
+                    $('.i18_links').i18n();
+               });
+          });
+
+          $('.set_jp').on('click', function(){
+               i18n.setLng('jp', function(){
+                    $('.i18_links').i18n();
+               });
+          });
+     </script>
 </body>
 
 </html>
