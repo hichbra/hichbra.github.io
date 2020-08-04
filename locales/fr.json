@@ -82,7 +82,7 @@
           "gr7" : "Ces changements ont notamment permis à GraphStream de s’équiper d’un tout nouveau système de visualisation multi-technologique offrant à l’utilisateur le choix de son interface graphique.",
           "gr8" : "Ces interfaces, commençant par la dénomination gs-ui, sont organisées en projets distincts qui ont en commun l’utilisation des nouvelles propriétés génériques de gs-core. La version 2 de GraphStream regroupe déjà à ce jour 3 projets d’UI répondant au nom de",
           "gr9s" : "gs-ui-swing, gs-ui-javafx ainsi qu'une toute nouvelle interface gs-ui-android",
-          "gr10" : ",le suffixe des noms décrivant les technologies utilisées. Côté algorithmique,",
+          "gr10" : ", le suffixe des noms décrivant les technologies utilisées. Côté algorithmique, ",
           "gr11s" : "l'abandon des itérateurs pour les streams",
           "gr12" : "ont permis d'augmenter la vitesse d’exécution des algorithmes sur les machines les plus puissantes, en améliorant la gestion du multithreading par la parallélisation des streams.",
 
