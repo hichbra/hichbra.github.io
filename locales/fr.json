@@ -6,8 +6,37 @@
           "skill": "Compétences",
           "contact": "Contact"
      },
-     "app" : {
-          "value": "New",
-          "onclick": "CreateNewDoc()"
-     }
+     "intro" : "<div class=\"text-center\">
+          <h2>Hicham BRAHIMI</h2>
+          <h3>Résidence principale : Le Havre, France</h3>
+          <h3>Résidence actuelle : Le Havre, France</h3>
+          <h3>26 ans</h3>
+          <h3>Permis B + Véhicule</h3>
+          <h3><a href=\"#contact\">Contact</a></h3>
+     </div>
+     <br />
+     <br />
+     <p>
+          Développeur professionnel depuis maintenant plus de 3 ans, ma particularité est d'être très <strong>polyvalent</strong>.<br />
+          Que ce soit de l'informatique ou de l'embarquée, <br />
+          Que ce soit du développement logiciel ou de site web, <br />
+          Que ce soit du front-end ou du back-end,<br />
+          Je n'ai aucun problème à m'adapter pour répondre aux attentes.
+          <br /><br />
+          Mes premières années passées au lycée furent dans le domaine de l'électrotechnique,
+          mais j'ai rapidement dérivé vers ma passion première : l'Informatique.
+          Ma formation a débuté par un apprentissage général de l'informatique, avant de se spécialiser
+          dans l'<strong>Intelligence Artificielle</strong>.<br />
+          <strong>Touche à tout dans l'âme, ne vous fiez pas simplement à mes compétences actuelles,
+          j'aime presque autant faire mon travail qu'apprendre à le faire.</strong>
+          <br /><br />
+          Mes centres d'intérêt sont assez simples. J'ai d'une part une grande passion pour tout ce qui touche
+          à la culture populaire : bandes dessinées et jeux vidéos entre autres, mais je m'intéresse également
+          aux jeux de cartes tels que Magic the gathering et les jeux de plateaux.
+          Enfin, j'aime également le sport et notamment le Baseball que je pratique maintenant depuis
+          plus de 3 ans<br /><br />
+
+          Mes attentes professionnel sont simples, un travail capable de me rendre <strong>heureux</strong> par le simple fait d'aller au boulot.
+
+     </p>"
 }
