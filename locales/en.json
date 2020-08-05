@@ -134,6 +134,7 @@
           "iot" : "IoT",
           "ia" : "AI",
           "web" : "Web",
+          "sgbd" : "Database",
 
           "syst" : "System",
           "language" : "Language",
