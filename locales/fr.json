@@ -4,7 +4,8 @@
           "formation": "Formations",
           "exp": "Expériences",
           "skill": "Compétences",
-          "contact": "Contact"
+          "contact": "Contact",
+          "cv": "Curriculum"
      },
      "introduction" : {
           "nom" : "Hicham BRAHIMI",
