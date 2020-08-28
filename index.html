@@ -14,16 +14,18 @@
      <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="i18container skin-1">
      <div id="wrapper">
           <div class="menu">
                <nav class="navbar-default navbar-static-side" role="navigation">
                     <div class="sidebar-collapse">
-                         <ul class="nav metismenu" id="side-menu">
+                         <ul class="nav metismenu i18container" id="side-menu">
                               <li class="nav-header">
                                    <div class="dropdown profile-element">
-                                        <a href="#top">image</a>
-
+                                        <a href="#top">
+                                             <span><img class="img-circle" alt="image" src="img/profile_small.jpg" /></span>
+                                             <span class="block m-t-xs font-bold">Hicham Brahimi</span>
+                                        </a>
                                    </div>
                                    <div class="logo-element">
                                         <a href="#top">HB</a>
@@ -40,6 +42,9 @@
                               </li>
                               <li class="">
                                    <a href="#skill"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.skill"></span></span></a>
+                              </li>
+                              <li class="">
+                                   <a href="#cv"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.cv"></span></span></a>
                               </li>
                               <li class="">
                                    <a href="#contact"><i class="fa fa-arrow-right"></i> <span class="nav-label"><span data-i18n="menu.contact"></span></span></a>
@@ -61,52 +66,42 @@
                          <div class="row">
                               <div class="col-xs-4"><a class="set_fr"><img src="img/France.png"></a></div>
                               <div class="col-xs-4"><a class="set_en"><img src="img/Anglais.png"></a></div>
-                              <div class="col-xs-4"><a class="set_jp"><img src="img/Japan.png"></a></div>
+                              <!--<div class="col-xs-4"><a class="set_jp"><img src="img/Japan.png"></a></div>-->
                          </div>
                     </div>
                </div>
                <div id="intro" class="ibox animated fadeInRight">
-                    <div class="ibox-title text-center animated fadeInRight">
-                         <h1>Présentation</h1>
+                    <div class="ibox-title text-center animated fadeInRight i18container">
+                         <h1><span data-i18n="menu.intro"></span></h1>
                     </div>
                     <div class="ibox-content animated fadeInRight">
                          <div class="row">
                               <div class="col-sm-4">
-                                   <img alt="moi" style="width: 100%;height: auto;" src="img/a.jpg" />
+                                   <img alt="moi" style="width: 100%;height: auto;" src="img/profile.jpg" />
                               </div>
-                              <div class="col-sm-8">
+                              <div class="col-sm-8 i18container">
                                    <div class="text-center">
-                                   <h2>Hicham BRAHIMI</h2>
-                                   <h3>Résidence principale : Le Havre, France</h3>
-                                   <h3>Résidence actuelle : Le Havre, France</h3>
-                                   <h3>26 ans</h3>
-                                   <h3>Permis B + Véhicule</h3>
-                                   <h3><a href="#contact">Contact</a></h3>
+                                        <h2><span data-i18n="introduction.nom"></span></h2>
+                                        <h3><span data-i18n="introduction.resprin"></span></h3>
+                                        <h3><span data-i18n="introduction.resonc"></span></h3>
+                                        <h3><span data-i18n="introduction.age"></span></h3>
+                                        <h3><span data-i18n="introduction.permis"></span></h3>
+                                        <h3><a href="#contact"><span data-i18n="menu.contact"></span></a></h3>
                                    </div>
                                    <br />
                                    <br />
                                    <p>
-                                        Développeur professionnel depuis maintenant plus de 3 ans, ma particularité est d'être très <strong>polyvalent</strong>.<br />
-                                        Que ce soit de l'informatique ou de l'embarquée, <br />
-                                        Que ce soit du développement logiciel ou de site web, <br />
-                                        Que ce soit du front-end ou du back-end,<br />
-                                        Je n'ai aucun problème à m'adapter pour répondre aux attentes.
+                                        <span data-i18n="introduction.p"></span><strong> <span data-i18n="introduction.p1s"></span></strong>.<br />
+                                        <span data-i18n="introduction.p2"></span><br />
+                                        <span data-i18n="introduction.p3"></span><br />
+                                        <span data-i18n="introduction.p4"></span><br />
+                                        <span data-i18n="introduction.p5"></span>
                                         <br /><br />
-                                        Mes premières années passées au lycée furent dans le domaine de l'électrotechnique,
-                                        mais j'ai rapidement dérivé vers ma passion première : l'Informatique.
-                                        Ma formation a débuté par un apprentissage général de l'informatique, avant de se spécialiser
-                                        dans l'<strong>Intelligence Artificielle</strong>.<br />
-                                        <strong>Touche à tout dans l'âme, ne vous fiez pas simplement à mes compétences actuelles,
-                                        j'aime presque autant faire mon travail qu'apprendre à le faire.</strong>
+                                        <span data-i18n="introduction.p6"></span><strong><span data-i18n="introduction.p7s"></span></strong>.<br />
+                                        <strong><span data-i18n="introduction.p8s"></span></strong>
                                         <br /><br />
-                                        Mes centres d'intérêt sont assez simples. J'ai d'une part une grande passion pour tout ce qui touche
-                                        à la culture populaire : bandes dessinées et jeux vidéos entre autres, mais je m'intéresse également
-                                        aux jeux de cartes tels que Magic the gathering et les jeux de plateaux.
-                                        Enfin, j'aime également le sport et notamment le Baseball que je pratique maintenant depuis
-                                        plus de 3 ans<br /><br />
-
-                                        Mes attentes professionnel sont simples, un travail capable de me rendre <strong>heureux</strong> par le simple fait d'aller au boulot.
-
+                                        <span data-i18n="introduction.p9"></span><br /><br />
+                                        <span data-i18n="introduction.p10"></span> <strong><span data-i18n="introduction.p11s"></span></strong> <span data-i18n="introduction.p12"></span>
                                    </p>
                               </div>
                          </div>
@@ -115,8 +110,8 @@
 
 
                <div id="formation" class="ibox animated fadeInRight">
-                    <div class="ibox-title text-center animated fadeInRight">
-                         <h1>Formations</h1>
+                    <div class="ibox-title text-center animated fadeInRight i18container">
+                         <h1><span data-i18n="menu.formation"></span></h1>
                     </div>
                     <div class="ibox-content animated fadeInRight">
                          <div id="vertical-timeline" class="vertical-container dark-timeline center-orientation">
@@ -126,14 +121,14 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Master 2 — MATIS</h1>
-                                        <h2>Mathématiques et Informatique des Systèmes Complexes et Distribués</h2>
+                                        <h1><span data-i18n="form.f"></span></h1>
+                                        <h2><span data-i18n="form.f1"></span></h2>
                                         <p>
-                                             Université du Havre
+                                             <span data-i18n="form.univ1"></span>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>Normandie, FRANCE</b> <br />
+                                             <b><span data-i18n="form.lieu1"></span></b> <br />
                                              <small>2017</small>
                                         </span>
                                    </div>
@@ -145,14 +140,14 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Master 1 Informatique <br /> Intelligence Artificielle</h1>
-                                        <h2>Parcours – Agent-based Computing</h2>
+                                        <h1><span data-i18n="form.f2"></span> <br /> <span data-i18n="form.f21"></span></h1>
+                                        <h2><span data-i18n="form.f22"></span></h2>
                                         <p>
-                                             Université Paris Descartes
+                                             <span data-i18n="form.univ2"></span>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>Île-de-France, FRANCE</b> <br />
+                                             <b><span data-i18n="form.lieu2"></span></b> <br />
                                              <small>2015</small>
                                         </span>
                                    </div>
@@ -164,13 +159,13 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Licence Informatique</h1>
+                                        <h1><span data-i18n="form.f3"></span></h1>
                                         <p>
-                                             Université du Havre
+                                             <span data-i18n="form.univ1"></span>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>Normandie, FRANCE</b> <br />
+                                             <b><span data-i18n="form.lieu1"></span></b> <br />
                                              <small>2014</small>
                                         </span>
                                    </div>
@@ -182,13 +177,13 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>DUT informatique</h1>
+                                        <h1><span data-i18n="form.f4"></h1>
                                         <p>
-                                             Institut Universitaire de Technologie du Havre
+                                             <span data-i18n="form.iut"></span>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>Normandie, FRANCE</b> <br />
+                                             <b><span data-i18n="form.lieu1"></span></b> <br />
                                              <small>2013</small>
                                         </span>
                                    </div>
@@ -200,14 +195,14 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Baccalauréat STI</h1>
-                                        <h2>Science et Technique Industrielle</h2>
+                                        <h1><span data-i18n="form.f5"></span></h1>
+                                        <h2><span data-i18n="form.f51"></span></h2>
                                         <p>
-                                             Lycée Robert Schuman
+                                             <span data-i18n="form.lycee"></span>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>Normandie, FRANCE</b> <br />
+                                             <b><span data-i18n="form.lieu1"></span></b> <br />
                                              <small>2011</small>
                                         </span>
                                    </div>
@@ -217,8 +212,8 @@
                </div>
 
                <div id="exp" class="ibox animated fadeInRight">
-                    <div class="ibox-title text-center animated fadeInRight">
-                         <h1>Expériences</h1>
+                    <div class="ibox-title text-center animated fadeInRight i18container">
+                         <h1><span data-i18n="menu.exp"></span></h1>
                     </div>
                     <div class="ibox-content animated fadeInRight">
                          <div id="vertical-timeline" class="vertical-container dark-timeline center-orientation">
@@ -228,32 +223,31 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Ingénieur d'études</h1>
-                                        <h2>Université du Havre — Laboratoire LITIS</h2>
-                                        <p>Chercheur à l'université durant 2 ans et 11 mois, je fus en charge de différents projets soumis à l'équipe RIIC (Réseaux d’interactions et Intelligence Collective) du LITIS
-                                             (Laboratoire d'Informatique, du Traitement de l'Information et des Systèmes).
+                                        <h1><span data-i18n="experience.e"></span></h1>
+                                        <h2><span data-i18n="experience.e1"></span></h2>
+                                        <p><span data-i18n="experience.e2"></span>
                                              <br />
-                                             Ces projets furent de nature très variés, allant de la librairie JAVA à l'instrumentalisation de biocapteur marin.
+                                             <span data-i18n="experience.e3"></span>
                                              <hr />
                                              <h3 style="margin-top: -10px;margin-bottom: -10px;">
-                                                  <center>Travaux effectués</center>
+                                                  <center><span data-i18n="experience.trav"></span></center>
                                              </h3>
                                              <hr />
                                              <ul>
                                                   <div class="row">
                                                        <div class="col-sm-6">
                                                             <li>
-                                                                 <h3 style="color:#5cb85c;">Projet Astreos</h3>
+                                                                 <h3 style="color:#5cb85c;"><span data-i18n="experience.ast"></span></h3>
                                                             </li>
                                                        </div>
-                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal">En savoir plus</button></div>
+                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal"><span data-i18n="experience.savoir"></span></button></div>
                                                        <div class="modal inmodal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
                                                             <div class="modal-dialog modal-lg">
                                                                  <div class="modal-content animated fadeInDown">
                                                                       <div class="modal-header">
-                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
-                                                                           <h4 class="modal-title">Projet ASTREOS</h4>
-                                                                           <small class="font-bold">Projet valorisé par le programme des investissements d’avenir (PIA3)</small>
+                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"><span data-i18n="experience.fermer"></span></span></button>
+                                                                           <h4 class="modal-title"><span data-i18n="experience.ast"></span></h4>
+                                                                           <small class="font-bold"><span data-i18n="experience.ast2"></span></small>
                                                                       </div>
                                                                       <div class="modal-body">
                                                                            <div class="row">
@@ -263,33 +257,20 @@
                                                                            </div>
                                                                            <div class="row">
                                                                                 <div class="col-sm-12">
-                                                                                     <p>Malgré l'arsenal législatif adopté progressivement par la communauté européenne,
-                                                                                          <strong>la qualité des milieux aquatiques</strong> ne parvient pas à atteindre les critères fixés par la réglementation,
-                                                                                          en particulier sur la façade française de la Manche.</p>
+                                                                                     <p><span data-i18n="experience.ast3"></span>
+                                                                                          <strong> <span data-i18n="experience.ast4s"> </span></strong> <span data-i18n="experience.ast5"></span></p>
                                                                                      <p>
-                                                                                          Les moules marines Mytilus spp. sont des organismes <strong>sessiles et filtreurs</strong>, colonisant les zones
-                                                                                          intertidales littorales et estuariennes des différents continents,
-                                                                                          incluant les régions fortement anthropisées, où elles sont particulièrement<strong> exposées aux contaminants de toutes natures</strong> ;
-                                                                                          ces organismes sont de ce fait communément utilisés comme espèce sentinelle dans les programmes de <strong>biosurveillance </strong>en
-                                                                                          écotoxicologie. L'utilisation de la<strong> mesure des mouvements valvaires</strong>, communément appelée valvométrie en biosurveillance
-                                                                                          active a été jusqu'à maintenant limitée par l'absence de dispositifs de terrain permettant l’enregistrement automatisé
-                                                                                          de séquences de comportement et par le déficit subséquent en connaissances.
-                                                                                          Le développement rapide de l’électronique et de l’informatique a ouvert de nouvelles perspectives
-                                                                                          et permet l'émergence du biologging comme approche permettant la mesure quantitative du
-                                                                                          comportement sans intervention directe de l'expérimentateur.
+                                                                                          <span data-i18n="experience.ast6"></span> <strong><span data-i18n="experience.ast7s"></span></strong><span data-i18n="experience.ast8"></span>
+                                                                                          <strong> <span data-i18n="experience.ast9s"></span></strong><span data-i18n="experience.ast10"></span> <strong><span data-i18n="experience.ast11s"></span>
+                                                                                          </strong>
+                                                                                          <span data-i18n="experience.ast12"></span><strong> <span data-i18n="experience.ast13s"></span></strong>
+                                                                                          <span data-i18n="experience.ast14"></span>
                                                                                      </p>
                                                                                      <p>
-                                                                                          Le programme ASTREOS est destiné à tester l’applicabilité d’une stratégie de biosurveillance de la Baie de Seine s’appuyant
-                                                                                          sur les<strong> mesures in situ de l’activité valvaire</strong> de moules de l’espèce Mytilus edulis. Il s'agit d'un très gros projet
-                                                                                          ayant réussi plusieurs levées de fonds dont j'ai eu le privilège d'être le premier à travailler sur la partie valvométrie,
-                                                                                          et je ne serai sans doute pas le dernier.
+                                                                                          <span data-i18n="experience.ast15"></span><strong> <span data-i18n="experience.ast16s"></span></strong> <span data-i18n="experience.ast17"></span>
                                                                                      </p>
                                                                                      <p>
-                                                                                          Ma part de l'objectif sur ce projet a été atteinte, à savoir la réalisation d'un<strong> prototype terrain</strong>,
-                                                                                          capable de récolter des données durant plusieurs semaines. J'ai travaillé notamment sur les 3 composantes principales de ce projet :
-                                                                                          L'instrumentalisation de moules à l'aide de capteurs à effet Hall, la fabrication du prototype terrain à l'aide de nano-ordinateurs
-                                                                                          et de microcontrôleurs et enfin, la réalisation de l'interface web permettant l'accès et l'analyse des données, ainsi que la
-                                                                                          communication avec le prototype.
+                                                                                          <span data-i18n="experience.ast18"></span><strong> <span data-i18n="experience.ast19s"></span></strong> <span data-i18n="experience.ast20"></span>
                                                                                      </p>
                                                                                 </div>
 
@@ -297,7 +278,7 @@
                                                                       </div>
 
                                                                       <div class="modal-footer">
-                                                                           <button type="button" class="btn btn-white" data-dismiss="modal">Fermer</button>
+                                                                           <button type="button" class="btn btn-white" data-dismiss="modal"><span data-i18n="experience.fermer"></span></button>
                                                                       </div>
                                                                  </div>
                                                             </div>
@@ -307,17 +288,17 @@
                                                   <div class="row">
                                                        <div class="col-sm-6">
                                                             <li>
-                                                                 <h3 style="color:#337ab7;">Projet Graphstream 2.0</h3>
+                                                                 <h3 style="color:#337ab7;"><span data-i18n="experience.gr"></span></h3>
                                                             </li>
                                                        </div>
-                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-success" data-toggle="modal" data-target="#myModal1">En savoir plus</button></div>
+                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-success" data-toggle="modal" data-target="#myModal1"><span data-i18n="experience.savoir"></span></button></div>
                                                        <div class="modal inmodal fade" id="myModal1" tabindex="-1" role="dialog" aria-hidden="true">
                                                             <div class="modal-dialog modal-lg">
                                                                  <div class="modal-content animated fadeInDown">
                                                                       <div class="modal-header">
-                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
-                                                                           <h4 class="modal-title">Graphstream 2.0</h4>
-                                                                           <small class="font-bold"><a href="https://github.com/graphstream/"> Github officiel du projet </a></small>
+                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"><span data-i18n="experience.fermer"></span></span></button>
+                                                                           <h4 class="modal-title"><span data-i18n="experience.gr"></span></h4>
+                                                                           <small class="font-bold"><a href="https://github.com/graphstream/"> <span data-i18n="experience.gr2"></span> </a></small>
                                                                       </div>
                                                                       <div class="modal-body">
                                                                            <div class="row">
@@ -327,27 +308,20 @@
                                                                            </div>
                                                                            <div class="row">
                                                                                 <div class="col-sm-12">
-                                                                                     <p>GraphStream est une <strong>librairie Java de gestion de graphes </strong>qui se concentre sur les aspects dynamiques des graphes.
-                                                                                          Elle se concentre principalement sur la modélisation de réseaux d'interaction dynamiques de tailles diverses.
+                                                                                     <p><span data-i18n="experience.gr3"></span> <strong><span data-i18n="experience.gr4s"></span> </strong>
                                                                                           <!--GraphStream is a graph handling Java library that focuses on the dynamics aspects of graphs. Its main focus is on the modeling of dynamic interaction networks of various sizes.-->
-                                                                                          La transition vers la version 2.0 a permis à gs-core, le module central de la librairie,
-                                                                                          de s’émanciper de différentes technologies pour devenir<strong> une librairie générique</strong>.
-                                                                                          Ces changements ont notamment permis à GraphStream de s’équiper d’un tout nouveau système de visualisation multi-technologique
-                                                                                          offrant à l’utilisateur le choix de son interface graphique.</p>
+                                                                                          <span data-i18n="experience.gr5"></span><strong> <span data-i18n="experience.gr6s"></span></strong>
+                                                                                          <span data-i18n="experience.gr7"></span></p>
                                                                                      <p>
-                                                                                          Ces interfaces, commençant par la dénomination gs-ui, sont organisées en projets distincts qui ont en commun
-                                                                                          l’utilisation des nouvelles propriétés génériques de gs-core. La version 2 de GraphStream regroupe déjà à ce jour
-                                                                                          3 projets d’UI répondant au nom de<strong> gs-ui-swing, gs-ui-javafx ainsi qu'une toute nouvelle interface gs-ui-android</strong>,
-                                                                                          le suffixe des noms décrivant les technologies utilisées. Côté algorithmique,<strong> l'abandon des itérateurs pour les streams</strong>
-                                                                                          ont permis d'augmenter la vitesse d’exécution des algorithmes sur les machines les plus puissantes, en améliorant
-                                                                                          la gestion du multithreading par la parallélisation des streams.</p>
+                                                                                          <span data-i18n="experience.gr8"></span><strong> <span data-i18n="experience.gr9s"></span></strong>
+                                                                                          <span data-i18n="experience.gr10"></span><strong> <span data-i18n="experience.gr11s"></span></strong>
+                                                                                          <span data-i18n="experience.gr12"></span></p>
                                                                                 </div>
-
                                                                            </div>
                                                                       </div>
 
                                                                       <div class="modal-footer">
-                                                                           <button type="button" class="btn btn-white" data-dismiss="modal">Fermer</button>
+                                                                           <button type="button" class="btn btn-white" data-dismiss="modal"><span data-i18n="experience.fermer"></span></button>
                                                                       </div>
                                                                  </div>
                                                             </div>
@@ -357,17 +331,17 @@
                                                   <div class="row">
                                                        <div class="col-sm-6">
                                                             <li>
-                                                                 <h3 style="color:#5cb85c;">Projet Firediag</h3>
+                                                                 <h3 style="color:#5cb85c;"><span data-i18n="experience.fire"></span></h3>
                                                             </li>
                                                        </div>
-                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal2">En savoir plus</button></div>
+                                                       <div class="col-sm-6"><button type="button" href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal2"><span data-i18n="experience.savoir"></span></button></div>
                                                        <div class="modal inmodal fade" id="myModal2" tabindex="-1" role="dialog" aria-hidden="true">
                                                             <div class="modal-dialog modal-lg">
                                                                  <div class="modal-content animated fadeInDown">
                                                                       <div class="modal-header">
-                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
-                                                                           <h4 class="modal-title">Projet Firediag</h4>
-                                                                           <small class="font-bold">L'écosystème IoT au service des héros</small>
+                                                                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"><span data-i18n="experience.fermer"></span></span></button>
+                                                                           <h4 class="modal-title"><span data-i18n="experience.fire"></span></h4>
+                                                                           <small class="font-bold"><span data-i18n="experience.fire2"></span></small>
                                                                       </div>
                                                                       <div class="modal-body">
                                                                            <div class="row">
@@ -378,25 +352,14 @@
                                                                            <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                      <p>
-                                                                                          En 2016, les 246.800 sapeurs-pompiers français ont effectué plus de 4.542.400
-                                                                                          interventions, c'est-à-dire près de 12.445 interventions par jour.
-                                                                                          Chaque année, une dizaine d’entre eux périssent tragiquement au cours de leurs missions.
-                                                                                          Flammes, fumée, torrents d’eau, ces hommes et femmes se battent chaque jour afin de
-                                                                                          sauver d’autres personnes en dépit d’un environnement extrêmement hostile. C’est dans le
-                                                                                          but de réduire les risques au minimum que les sapeurs-pompiers recherchent en
-                                                                                          permanence de <strong>nouvelles solutions technologiques</strong>.
-                                                                                          Les pompiers étant des acteurs primordiaux de la société, développeurs, chercheurs et
-                                                                                          fabricants s’empresse de comprendre et de créer le pompier de demain. Ainsi, nous nous
-                                                                                          sommes également intéressés à ce problème et plus particulièrement à la<strong> gestion et au
-                                                                                               traitement de tous ces nouveaux outils </strong>qui apparaissent afin d’aider les pompiers dans leur
-                                                                                          tâche.
+                                                                                          <span data-i18n="experience.fire3"></span> <strong><span data-i18n="experience.fire4s"></span></strong>
+                                                                                          <span data-i18n="experience.fire5"></span><strong> <span data-i18n="experience.fire6s"></span> </strong>
+                                                                                          <span data-i18n="experience.fire7"></span>
                                                                                      </p>
                                                                                      <p>
-                                                                                          Nous avons donc travaillé sur un tableau de bord dans le but<strong> d’observer, enregistrer et
-                                                                                               analyser </strong>les données issues de différents types de capteurs. L'objectif était de parvenir
-                                                                                          à regrouper et visualiser à l'aide du protocole de <strong>communication MQTT</strong>
-                                                                                          les valeurs des capteurs en direct.
-                                                                                          Ce projet a servi également de base à l'interface du projet Astreos.
+                                                                                          <span data-i18n="experience.fire8"></span><strong> <span data-i18n="experience.fire9s"></span> </strong>
+                                                                                          <span data-i18n="experience.fire10"></span> <strong><span data-i18n="experience.fire11s"></span></strong>
+                                                                                          <span data-i18n="experience.fire12"></span>
                                                                                      </p>
                                                                                 </div>
 
@@ -404,7 +367,7 @@
                                                                       </div>
 
                                                                       <div class="modal-footer">
-                                                                           <button type="button" class="btn btn-white" data-dismiss="modal">Fermer</button>
+                                                                           <button type="button" class="btn btn-white" data-dismiss="modal"><span data-i18n="experience.fermer"></span></button>
                                                                       </div>
                                                                  </div>
                                                             </div>
@@ -414,7 +377,7 @@
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>3 ans</b> <br />
+                                             <b>3 <span data-i18n="experience.ans"></span></b> <br />
                                              <small>2017 - 2020</small>
                                         </span>
                                    </div>
@@ -426,26 +389,22 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Ingénieur — Stage de Master 2</h1>
-                                        <h2>Université du Havre — Laboratoire LITIS</h2>
-                                        <p>Un projet étudiant au cours de mon Master 2 m'a amené à concevoir une prothèse de main mécanique, sur laquelle nous avions
-                                             effectué des modifications, notamment l’ajout d’électronique embarquée afin que l’utilisateur soit capable de
-                                             contrôler ses doigts.
-
-                                             Ce stage est la continuité de ce projet, avec pour objectif de comprendre les signaux émis par le cerveau au cours d’un mouvement.
+                                        <h1><span data-i18n="experience.e4"></span></h1>
+                                        <h2><span data-i18n="experience.e5"></span></h2>
+                                        <p><span data-i18n="experience.e6"></span>
                                              <hr />
                                              <h3 style="margin-top: -10px;margin-bottom: -10px;">
-                                                  <center>Travaux effectués</center>
+                                                  <center><span data-i18n="experience.trav"></span></center>
                                              </h3>
                                              <hr />
                                              <ul>
-                                                  <li>Développement et amélioration d'une prothèse mécanique</li>
-                                                  <li>Interprétation de Signaux EEG par Réseau de Neurones</li>
+                                                  <li><span data-i18n="experience.e7"></span></li>
+                                                  <li><span data-i18n="experience.e8"></span></li>
                                              </ul>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>4 Mois</b> <br />
+                                             <b>4 <span data-i18n="experience.mois"></span></b> <br />
                                              <small>2017</small>
                                         </span>
                                    </div>
@@ -457,26 +416,26 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Analyste programmeur JAVA</h1>
-                                        <h2>Exel Connect</h2>
+                                        <h1><span data-i18n="experience.e9"></span></h1>
+                                        <h2><span data-i18n="experience.e10"></span></h2>
                                         <p>
-                                             Développement d'un logiciel de gestion d'entrepôts.
+                                             <span data-i18n="experience.e11"></span>
                                              <hr />
                                              <h3 style="margin-top: -10px;margin-bottom: -10px;">
-                                                  <center>Travaux effectués</center>
+                                                  <center><span data-i18n="experience.trav"></span></center>
                                              </h3>
                                              <hr />
                                              <ul>
-                                                  <li>Conception de l'architecture logicielle</li>
-                                                  <li>Aide à la conception et à la mise en place de la base de données</li>
-                                                  <li>Développement du serveur et de la liaison client-serveur</li>
-                                                  <li>Développement d'une partie du client</li>
-                                                  <li>Rédaction de documentation</li>
+                                                  <li><span data-i18n="experience.e12"></span></li>
+                                                  <li><span data-i18n="experience.e13"></span></li>
+                                                  <li><span data-i18n="experience.e14"></span></li>
+                                                  <li><span data-i18n="experience.e15"></span></li>
+                                                  <li><span data-i18n="experience.e16"></span></li>
                                              </ul>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>4 Mois</b> <br />
+                                             <b>4 <span data-i18n="experience.mois"></span></b> <br />
                                              <small>2014</small>
                                         </span>
                                    </div>
@@ -488,23 +447,23 @@
                                    </div>
 
                                    <div class="vertical-timeline-content">
-                                        <h1>Développeur Web — Stage de DUT</h1>
-                                        <h2>Société de Maintenance Portuaire Havraise</h2>
+                                        <h1><span data-i18n="experience.e17"></span></h1>
+                                        <h2><span data-i18n="experience.e18"></span></h2>
                                         <p>
-                                             Développement d'une application web de génération automatique de devis et d'un site web.
+                                             <span data-i18n="experience.e19"></span>
                                              <hr />
                                              <h3 style="margin-top: -10px;margin-bottom: -10px;">
-                                                  <center>Travaux effectués</center>
+                                                  <center><span data-i18n="experience.trav"></span></center>
                                              </h3>
                                              <hr />
                                              <ul>
-                                                  <li>Développement d'un site web PHP/HTML</li>
-                                                  <li>Développement d'une application de génération automatique de Devis en PHP</li>
+                                                  <li><span data-i18n="experience.e20"></span></li>
+                                                  <li><span data-i18n="experience.e21"></span></li>
                                              </ul>
                                         </p>
 
                                         <span class="vertical-date">
-                                             <b>10 Semaines</b> <br />
+                                             <b>10 <span data-i18n="experience.semaines"></span></b> <br />
                                              <small>2013</small>
                                         </span>
                                    </div>
@@ -514,16 +473,16 @@
                </div>
 
                <div id="skill" class="ibox animated fadeInRight">
-                    <div class="ibox-title text-center animated fadeInRight">
-                         <h1>Compétences</h1>
+                    <div class="ibox-title text-center animated fadeInRight i18container">
+                         <h1><span data-i18n="menu.skill"></span></h1>
                     </div>
                     <div class="ibox-title text-center animated fadeInRight">
                          <div class="row">
                               <div class="col-sm-6">
-                                   <h2>Outils</h2>
+                                   <h2><span data-i18n="comp.outils"></span></h2>
                               </div>
                               <div class="col-sm-6 hidden-xs">
-                                   <h2>Maîtrise</h2>
+                                   <h2><span data-i18n="comp.maitrise"></span></h2>
                               </div>
                          </div>
                     </div>
@@ -532,11 +491,11 @@
                               <div class="col-sm-6">
                                    <div class="tabs-container">
                                         <ul class="nav nav-tabs" role="tablist">
-                                             <li class="active"><a class="nav-link" data-toggle="tab" href="#tab-1">Logiciel</a></li>
-                                             <li><a class="nav-link" data-toggle="tab" href="#tab-2">Web</a></li>
-                                             <li><a class="nav-link" data-toggle="tab" href="#tab-3">Mobile</a></li>
-                                             <li><a class="nav-link" data-toggle="tab" href="#tab-4">IOT</a></li>
-                                             <li><a class="nav-link" data-toggle="tab" href="#tab-5">IA</a></li>
+                                             <li class="active"><a class="nav-link" data-toggle="tab" href="#tab-1"><span data-i18n="comp.logiciel"></span></a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-2"><span data-i18n="comp.web"></span></a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-3"><span data-i18n="comp.mobile"></span></a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-4"><span data-i18n="comp.iot"></span></a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab-5"><span data-i18n="comp.ia"></span></a></li>
                                         </ul>
                                         <div class="tab-content">
                                              <div role="tabpanel" id="tab-1" class="tab-pane active">
@@ -545,7 +504,7 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-primary">
                                                                       <div class="panel-heading">
-                                                                           Système
+                                                                           <span data-i18n="comp.syst"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>Windows</h3>
@@ -557,7 +516,7 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-success">
                                                                       <div class="panel-heading">
-                                                                           Langage
+                                                                           <span data-i18n="comp.language"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>JAVA</h3>
@@ -573,7 +532,7 @@
                                                             <div class="col-sm-4">
                                                                  <div class="panel panel-primary">
                                                                       <div class="panel-heading">
-                                                                           Système
+                                                                           <span data-i18n="comp.syst"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>Apache</h3>
@@ -585,7 +544,7 @@
                                                             <div class="col-sm-4">
                                                                  <div class="panel panel-success">
                                                                       <div class="panel-heading">
-                                                                           Langage
+                                                                           <span data-i18n="comp.language"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>PHP</h3>
@@ -603,7 +562,7 @@
                                                             <div class="col-sm-4">
                                                                  <div class="panel panel-info">
                                                                       <div class="panel-heading">
-                                                                           SGBD
+                                                                           <span data-i18n="comp.sgbd"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>MySQL</h3>
@@ -625,7 +584,7 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-primary">
                                                                       <div class="panel-heading">
-                                                                           Système
+                                                                           <span data-i18n="comp.syst"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>Android</h3>
@@ -635,7 +594,7 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-success">
                                                                       <div class="panel-heading">
-                                                                           Langage
+                                                                           <span data-i18n="comp.language"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>JAVA Android</h3>
@@ -653,7 +612,7 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-primary">
                                                                       <div class="panel-heading">
-                                                                           Système
+                                                                           <span data-i18n="comp.syst"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>Arduino</h3>
@@ -665,7 +624,7 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-success">
                                                                       <div class="panel-heading">
-                                                                           Langage
+                                                                           <span data-i18n="comp.language"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>Arduino</h3>
@@ -685,23 +644,23 @@
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-warning">
                                                                       <div class="panel-heading">
-                                                                           Domaines
+                                                                           <span data-i18n="comp.domaine"></span>
                                                                       </div>
                                                                       <div class="panel-body">
-                                                                           <h3>Analyse</h3>
+                                                                           <h3><span data-i18n="comp.analyse"></span></h3>
                                                                            <hr />
-                                                                           <h3>Supervisé</h3>
+                                                                           <h3><span data-i18n="comp.super"></span></h3>
                                                                            <hr />
-                                                                           <h3>Non Supervisé</h3>
+                                                                           <h3><span data-i18n="comp.nosuper"></span></h3>
                                                                            <hr />
-                                                                           <h3>Renforcement</h3>
+                                                                           <h3><span data-i18n="comp.renfo"></span></h3>
                                                                       </div>
                                                                  </div>
                                                             </div>
                                                             <div class="col-sm-6">
                                                                  <div class="panel panel-success">
                                                                       <div class="panel-heading">
-                                                                           Langage
+                                                                           <span data-i18n="comp.language"></span>
                                                                       </div>
                                                                       <div class="panel-body">
                                                                            <h3>Python</h3>
@@ -715,21 +674,22 @@
                                              </div>
                                         </div>
 
-
                                    </div>
                               </div>
                               <div class="ibox-title text-center animated fadeInRight hidden-sm hidden-md hidden-lg hidden-xl">
                                    <div class="row">
                                         <div class="col-sm-6">
-                                             <h2>Maîtrise</h2>
+                                             <h2><span data-i18n="comp.maitrise"></span></h2>
                                         </div>
                                    </div>
                               </div>
                               <div class="col-sm-6">
                                    <div class="tabs-container">
                                         <ul class="nav nav-tabs" role="tablist">
-                                             <li class="active"><a class="nav-link" data-toggle="tab" href="#tab2-1">Développement</a></li>
-                                             <li><a class="nav-link" data-toggle="tab" href="#tab2-2">Global</a></li>
+                                             <li class="active"><a class="nav-link" data-toggle="tab" href="#tab2-1"><span data-i18n="comp.developpe"></span></a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab2-2"><span data-i18n="comp.global"></span></a></li>
+                                             <li><a class="nav-link" data-toggle="tab" href="#tab2-3"><span data-i18n="comp.qualite"></span></a></li>
+
                                         </ul>
                                         <div class="tab-content">
                                              <div role="tabpanel" id="tab2-1" class="tab-pane active">
@@ -742,6 +702,11 @@
                                                        <canvas id="myskills2"></canvas>
                                                   </div>
                                              </div>
+                                             <div role="tabpanel" id="tab2-3" class="tab-pane">
+                                                  <div class="panel-body">
+                                                       <canvas id="myskills3"></canvas>
+                                                  </div>
+                                             </div>
                                         </div>
                                    </div>
                               </div>
@@ -751,11 +716,33 @@
                     </div>
                </div>
 
+               <div id="cv" class="ibox animated fadeInRight">
+                    <div class="ibox-title text-center animated fadeInRight i18container">
+                         <h1><span data-i18n="menu.cv"></span></h1>
+                    </div>
+                    <div class="ibox-content text-center animated fadeInRight">
+                         <div class="text-center pdf-toolbar">
+                              <div class="btn-group">
+                                   <button id="zoomin" class="btn btn-white">
+                                        <i class="fa fa-search-minus"></i> <span class="d-none d-sm-inline">Zoom In</span>
+                                   </button>
+                                   <button id="zoomout" class="btn btn-white">
+                                        <i class="fa fa-search-plus"></i> <span class="d-none d-sm-inline">Zoom Out</span>
+                                   </button>
+                                   <button id="zoomfit" class="btn btn-white"> 100%</button>
+                              </div>
+                         </div>
+
+                         <canvas id="canvasPDF" class="pdfcanvas border-left-right border-top-bottom b-r-md"></canvas>
+
+                    </div>
+               </div>
+
 
 
                <div id="contact" class="ibox animated fadeInRight">
-                    <div class="ibox-title text-center animated fadeInRight">
-                         <h1>Contact</h1>
+                    <div class="ibox-title text-center animated fadeInRight i18container">
+                         <h1><span data-i18n="menu.contact"></span></h1>
                     </div>
                     <div class="ibox-content text-center animated fadeInRight">
                          <div class="row">
@@ -764,13 +751,13 @@
                                         <div class="row">
                                              <div class="col-md-6">
                                                   <div class="md-form mb-0 form-group">
-                                                       <label class="control-label" for="name" class="">Nom</label>
+                                                       <label class="control-label" for="name" class=""><span data-i18n="cont.nom"></span></label>
                                                        <input type="text" id="name" name="name" class="form-control">
                                                   </div>
                                              </div>
                                              <div class="col-md-6">
                                                   <div class="md-form mb-0 form-group">
-                                                       <label class="control-label" for="email" class="">Email</label>
+                                                       <label class="control-label" for="email" class=""><span data-i18n="cont.mail"></span></label>
                                                        <input type="text" id="email" name="email" class="form-control">
                                                   </div>
                                              </div>
@@ -778,23 +765,21 @@
                                         <div class="row">
                                              <div class="col-md-12">
                                                   <div class="md-form mb-0 form-group">
-                                                       <label class="control-label" for="subject" class="">Sujet</label>
+                                                       <label class="control-label" for="subject" class=""><span data-i18n="cont.sujet"></span></label>
                                                        <input type="text" id="subject" name="subject" class="form-control">
                                                   </div>
                                              </div>
                                         </div>
                                         <div class="row">
-
                                              <div class="col-md-12">
                                                   <div class="md-form form-group">
-                                                       <label class="control-label" for="message">Votre Message</label>
+                                                       <label class="control-label" for="message"><span data-i18n="cont.vmessage"></span></label>
                                                        <textarea type="text" id="message" name="message" rows="12" class="form-control md-textarea"></textarea>
                                                   </div>
-
                                              </div>
                                         </div>
                                         <div class="text-center text-md-left">
-                                             <button class="btn btn-primary" id="formButton">Envoyer</button>
+                                             <button class="btn btn-primary" id="formButton"><span data-i18n="cont.envoyer"></span></button>
                                         </div>
 
                                         <div class="status" id="formStatus"></div>
@@ -826,8 +811,44 @@
      <script src="js/plugins/pace/pace.min.js"></script>
      <script src="js/plugins/chartJs/Chart.min.js"></script>
      <script src="js/plugins/i18next/i18next.min.js"></script>
-
+     <script src="js/plugins/pdfjs/pdf.js"></script>
      <script>
+          $(document).ready(function() {
+
+               // Multilanguage
+               $.i18n.init({
+                    resGetPath: 'https://hicham.brahimi.dev/locales/__lng__.json',
+                    load: 'unspecific',
+                    fallbackLng: false,
+                    debug: true,
+                    lng: 'fr',
+                    useCookie: false
+               }, function(t) {
+                    $('.i18container').i18n();
+                    skills();
+               });
+
+               $('.set_en').on('click', function() {
+                    i18n.setLng('en', function() {
+                         $('.i18container').i18n();
+                         skills()
+                    });
+               });
+
+               $('.set_fr').on('click', function() {
+                    i18n.setLng('fr', function() {
+                         $('.i18container').i18n();
+                    });
+               });
+
+               $('.set_jp').on('click', function() {
+                    i18n.setLng('jp', function() {
+                         $('.i18container').i18n();
+                    });
+               });
+          });
+          //------------------------------------------------------------------------------
+
           var topMenu = $("#side-menu"),
                topMenuHeight = topMenu.outerHeight() + 15,
                // All list items
@@ -856,62 +877,6 @@
                // Set/remove active class
                menuItems.parent().removeClass("active").end().filter("[href='#" + id + "']").parent().addClass("active");
           });
-
-          var radarData = {
-               labels: ["Mobile", "Web", "Logiciel", "IA", "IOT"],
-               datasets: [{
-                         label: "My First dataset",
-                         backgroundColor: "rgba(26,179,55,0.2)",
-                         borderColor: "rgba(26,179,55,1)",
-                         data: [80, 90, 95, 50, 70]
-                    },
-                    {
-                         backgroundColor: "rgba(220,220,220,0.2)",
-                         borderColor: "rgba(220,220,220,1)",
-                         data: [0, 0, 0, 0, 0, 0, 0]
-                    }
-               ]
-          };
-
-
-
-          var radarOptions = {
-               responsive: true,
-               legend: {
-                    display: false
-               }
-          };
-
-          var ctx5 = document.getElementById("myskills").getContext("2d");
-          new Chart(ctx5, {
-               type: 'radar',
-               data: radarData,
-               options: radarOptions
-          });
-
-          var radarData2 = {
-               labels: ["Gestion de Projet", "Informatique", "Électronique", "Mécanique"],
-               datasets: [{
-                         label: "My First dataset",
-                         backgroundColor: "rgba(26,55,179,0.2)",
-                         borderColor: "rgba(26,55,179,1)",
-                         data: [80, 98, 60, 40]
-                    },
-                    {
-                         backgroundColor: "rgba(220,220,220,0.2)",
-                         borderColor: "rgba(220,220,220,1)",
-                         data: [0, 0, 0, 0, 0, 0, 0]
-                    }
-               ]
-          };
-
-          var ctx5_2 = document.getElementById("myskills2").getContext("2d");
-          new Chart(ctx5_2, {
-               type: 'radar',
-               data: radarData2,
-               options: radarOptions
-          });
-
 
           // Contact
           window.addEventListener("DOMContentLoaded", function() {
@@ -960,33 +925,196 @@
                xhr.send(data);
           }
 
-          // Multilanguage
+          // Graphs
+          function skills() {
+               // SKILL
+               var radarData = {
+                    labels: [i18n.t("comp.mobile"), i18n.t("comp.web"), i18n.t("comp.logiciel"), i18n.t("comp.ia"), i18n.t("comp.iot")],
+                    datasets: [{
+                              label: "",
+                              backgroundColor: "rgba(26,179,55,0.2)",
+                              borderColor: "rgba(26,179,55,1)",
+                              data: [80, 90, 95, 50, 70]
+                         },
+                         {
+                              backgroundColor: "rgba(220,220,220,0.2)",
+                              borderColor: "rgba(220,220,220,1)",
+                              data: [0, 0, 0, 0, 0, 0, 0]
+                         }
+                    ]
+               };
 
-          $.i18n.init({
-               resGetPath: 'locales/__lng__.json',
-               load: 'unspecific',
-               fallbackLng: false,
-               lng: 'fr'
-          }, function (t){
-               $('.i18_links').i18n();
-          });
+               var radarOptions = {
+                    responsive: true,
+                    legend: {
+                         display: false
+                    }
+               };
 
-          $('.set_en').on('click', function() {
-               i18n.setLng('en', function() {
-                    $('.i18_links').i18n();
+               var ctx5 = document.getElementById("myskills").getContext("2d");
+               new Chart(ctx5, {
+                    type: 'radar',
+                    data: radarData,
+                    options: radarOptions
                });
-          });
 
-          $('.set_fr').on('click', function(){
-               i18n.setLng('fr', function(){
-                    $('.i18_links').i18n();
-               });
-          });
+               var radarData2 = {
+                    labels: [i18n.t("comp.gestion"), i18n.t("comp.info"), i18n.t("comp.electro"), i18n.t("comp.meca")],
+                    datasets: [{
+                              label: "",
+                              backgroundColor: "rgba(26,55,179,0.2)",
+                              borderColor: "rgba(26,55,179,1)",
+                              data: [80, 98, 60, 40]
+                         },
+                         {
+                              backgroundColor: "rgba(220,220,220,0.2)",
+                              borderColor: "rgba(220,220,220,1)",
+                              data: [0, 0, 0, 0, 0, 0, 0]
+                         }
+                    ]
+               };
 
-          $('.set_jp').on('click', function(){
-               i18n.setLng('jp', function(){
-                    $('.i18_links').i18n();
+               var ctx5_2 = document.getElementById("myskills2").getContext("2d");
+               new Chart(ctx5_2, {
+                    type: 'radar',
+                    data: radarData2,
+                    options: radarOptions
                });
+
+               var radarData3 = {
+                    labels: [i18n.t("comp.autonome"), i18n.t("comp.creatif"), i18n.t("comp.passion"), i18n.t("comp.adaptabilite"), i18n.t("comp.polyvalence")],
+                    datasets: [{
+                              label: "",
+                              backgroundColor: "rgba(26,55,179,0.2)",
+                              borderColor: "rgba(179,55,26,1)",
+                              data: [80, 98, 80, 90, 98]
+                         },
+                         {
+                              backgroundColor: "rgba(220,220,220,0.2)",
+                              borderColor: "rgba(220,220,220,1)",
+                              data: [0, 0, 0, 0, 0, 0, 0]
+                         }
+                    ]
+               };
+
+               var ctx5_3 = document.getElementById("myskills3").getContext("2d");
+               new Chart(ctx5_3, {
+                    type: 'radar',
+                    data: radarData3,
+                    options: radarOptions
+               });
+          }
+
+          //------------------------------ PDF
+          //
+          // If absolute URL from the remote server is provided, configure the CORS
+          // header on that server.
+          //
+          var url = 'https://hicham.brahimi.dev/doc/CV-web.pdf';
+
+
+          var pdfDoc = null,
+                pageNum = 1,
+                pageRendering = false,
+                pageNumPending = null,
+                scale = 1.5,
+                zoomRange = 0.25,
+                canvas = document.getElementById('canvasPDF'),
+                ctx = canvas.getContext('2d');
+
+          /**
+          * Get page info from document, resize canvas accordingly, and render page.
+          * @param num Page number.
+          */
+          function renderPage(num, scale) {
+            pageRendering = true;
+            // Using promise to fetch the page
+            pdfDoc.getPage(num).then(function(page) {
+                var viewport = page.getViewport(scale);
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                // Render PDF page into canvas context
+                var renderContext = {
+                    canvasContext: ctx,
+                    viewport: viewport
+                };
+                var renderTask = page.render(renderContext);
+
+                // Wait for rendering to finish
+                renderTask.promise.then(function () {
+                    pageRendering = false;
+                    if (pageNumPending !== null) {
+                        // New page rendering is pending
+                        renderPage(pageNumPending);
+                        pageNumPending = null;
+                    }
+                });
+            });
+
+          }
+
+          /**
+          * If another page rendering in progress, waits until the rendering is
+          * finised. Otherwise, executes rendering immediately.
+          */
+          function queueRenderPage(num) {
+            if (pageRendering) {
+                pageNumPending = num;
+            } else {
+                renderPage(num,scale);
+            }
+          }
+
+          /**
+          * Zoom in page.
+          */
+          function onZoomIn() {
+            if (scale >= pdfDoc.scale) {
+                return;
+            }
+            scale += zoomRange;
+            var num = pageNum;
+            renderPage(num, scale)
+          }
+          document.getElementById('zoomin').addEventListener('click', onZoomIn);
+
+          /**
+          * Zoom out page.
+          */
+          function onZoomOut() {
+            if (scale >= pdfDoc.scale) {
+                return;
+            }
+            scale -= zoomRange;
+            var num = pageNum;
+            queueRenderPage(num, scale);
+          }
+          document.getElementById('zoomout').addEventListener('click', onZoomOut);
+
+          /**
+          * Zoom fit page.
+          */
+          function onZoomFit() {
+            if (scale >= pdfDoc.scale) {
+                return;
+            }
+            scale = 1;
+            var num = pageNum;
+            queueRenderPage(num, scale);
+          }
+          document.getElementById('zoomfit').addEventListener('click', onZoomFit);
+
+
+          /**
+          * Asynchronously downloads PDF.
+          */
+          PDFJS.getDocument(url).then(function (pdfDoc_) {
+            pdfDoc = pdfDoc_;
+            var documentPagesNumber = pdfDoc.numPages;
+
+            // Initial/first page rendering
+            renderPage(pageNum, scale);
           });
      </script>
 </body>
