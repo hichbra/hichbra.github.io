@@ -151,7 +151,15 @@
           "gestion" : "Gestion de Projet",
           "info" : "Informatique",
           "electro" : "Électronique",
-          "meca" : "Mécanique"
+          "meca" : "Mécanique",
+
+          "qualite" : "Qualités",
+          "rigueur" : "Rigueur",
+          "autonome" : "Autonomie",
+          "creatif" : "Créativité",
+          "passion" : "Passionné",
+          "adaptabilite" : "Adaptabilité",
+          "polyvalence" : "Polyvalence"
      },
      "cont" : {
           "nom" : "Nom",
