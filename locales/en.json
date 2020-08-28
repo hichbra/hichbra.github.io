@@ -151,7 +151,14 @@
           "gestion" : "Project Management",
           "info" : "Computer Science",
           "electro" : "Electronics",
-          "meca" : "Mechanics"
+          "meca" : "Mechanics",
+
+          "qualite" : "Qualities",
+          "autonome" : "Autonomy",
+          "creatif" : "Creativity",
+          "passion" : "Passion",
+          "adaptabilite" : "Adaptability",
+          "polyvalence" : "Versatility"
      },
      "cont" : {
           "nom" : "Name",
