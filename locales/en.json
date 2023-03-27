@@ -104,7 +104,7 @@
           "ans" : "years",
           "mois" : "Months",
           "semaines" : "Weeks",
-
+          "actuelle" : "current",
 
           "e4" : "Engineer — Master 2 internship",
           "e5" : "University of Le Havre — LITIS Laboratory",
@@ -125,7 +125,13 @@
           "e18" : "Le Havre Port Maintenance Company",
           "e19" : "Development of website and a web application for the quotes automatic generation.",
           "e20" : "Development of a PHP/HTML website",
-          "e21" : "Development of an PHP automatic quotation generation application."
+          "e21" : "Development of an PHP automatic quotation generation application.",
+
+          "e22" : "Entrepreneur",
+          "e23" : "Courtish — Le Havre",
+          "e24" : "Our company is developing a CRM software specifically designed for insurance brokers.",
+          "e25" : "Our goal is to simplify and optimize the management of customer relationships for brokers, allowing them to focus on their core business: advising their clients on insurance matters.",
+          "e26" : "Visit the website."
      },
      "comp" : {
           "outils" : "Tools",

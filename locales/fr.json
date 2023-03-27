@@ -104,7 +104,7 @@
           "ans" : "ans",
           "mois" : "Mois",
           "semaines" : "Semaines",
-
+          "actuelle" : "actuelle",
 
           "e4" : "Ingénieur — Stage de Master 2",
           "e5" : "Université du Havre — Laboratoire LITIS",
@@ -125,7 +125,13 @@
           "e18" : "Société de Maintenance Portuaire Havraise",
           "e19" : "Développement d'une application web de génération automatique de devis et d'un site web.",
           "e20" : "Développement d'un site web PHP/HTML",
-          "e21" : "Développement d'une application de génération automatique de Devis en PHP"
+          "e21" : "Développement d'une application de génération automatique de Devis en PHP",
+
+          "e22" : "Entrepreneur",
+          "e23" : "Courtish — Le Havre",
+          "e24" : "Notre entreprise développe un logiciel de CRM spécialement conçu pour les courtiers en assurance.",
+          "e25" : "Notre objectif est de simplifier et d'optimiser la gestion de la relation client pour les courtiers, afin de leur permettre de se concentrer sur leur cœur de métier : conseiller leurs clients en matière d'assurance.",
+          "e26" : "Visiter le site web."
      },
      "comp" : {
           "outils" : "Outils",
