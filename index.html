@@ -84,7 +84,7 @@
                                         <h2><span data-i18n="introduction.nom"></span></h2>
                                         <h3><span data-i18n="introduction.resprin"></span></h3>
                                         <h3><span data-i18n="introduction.resonc"></span></h3>
-                                        <h3><span data-i18n="introduction.age"></span></h3>
+                                        <h3><span data-i18n="introduction.age"></span><span id="ageCalcul"></span></h3>
                                         <h3><span data-i18n="introduction.permis"></span></h3>
                                         <h3><a href="#contact"><span data-i18n="menu.contact"></span></a></h3>
                                    </div>
@@ -839,6 +839,9 @@
      <script src="js/plugins/pdfjs/pdf.js"></script>
      <script>
           $(document).ready(function() {
+
+               var ageC =  (new Date().getFullYear() - 1994);
+               $("#ageCalcul").text(ageC);
 
                // Multilanguage
                $.i18n.init({
